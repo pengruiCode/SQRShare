@@ -210,13 +210,7 @@ static id _instance;
         {
             UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
             pasteboard.string = self.shareUrl;
-//            k_Toast(@"复制成功");
-            CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];
-            [[UIApplication sharedApplication].keyWindow  makeToast:@"复制成功" duration:1.0 position:CSToastPositionBottom style:style];
-            [UIApplication sharedApplication].keyWindow = NO;
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                [UIApplication sharedApplication].keyWindow = YES;
-            });
+            k_Toast(@"复制成功");
             return;
         }
             break;
@@ -229,13 +223,7 @@ static id _instance;
      */
     
     if (!_shareParams) {
-//        k_Toast(@"没有设置分享参数");
-        CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];
-        [[UIApplication sharedApplication].keyWindow  makeToast:@"没有设置分享参数" duration:1.0 position:CSToastPositionBottom style:style];
-        [UIApplication sharedApplication].keyWindow = NO;
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [UIApplication sharedApplication].keyWindow = YES;
-        });
+        k_Toast(@"没有设置分享参数！");
         return;
     }
     
@@ -248,13 +236,7 @@ static id _instance;
                 if (self.shareReturnBlock) {
                     self.shareReturnBlock(0);
                 }
-//                k_Toast(@"分享成功");
-                CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];
-                [[UIApplication sharedApplication].keyWindow  makeToast:@"分享成功" duration:1.0 position:CSToastPositionBottom style:style];
-                [UIApplication sharedApplication].keyWindow = NO;
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                    [UIApplication sharedApplication].keyWindow = YES;
-                });
+                k_Toast(@"分享成功");
                 break;
             }
                 
@@ -263,13 +245,7 @@ static id _instance;
                 if (self.shareReturnBlock) {
                     self.shareReturnBlock(1);
                 }
-//                k_Toast(@"分享失败");
-                CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];
-                [[UIApplication sharedApplication].keyWindow  makeToast:@"分享失败" duration:1.0 position:CSToastPositionBottom style:style];
-                [UIApplication sharedApplication].keyWindow = NO;
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                    [UIApplication sharedApplication].keyWindow = YES;
-                });
+                k_Toast(@"分享失败");
                 break;
             }
                 
