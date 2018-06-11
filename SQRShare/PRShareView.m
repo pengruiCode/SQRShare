@@ -21,7 +21,6 @@
 //#import <TencentOpenAPI/QQApiInterface.h>
 
 //微信SDK头文件
-#import "WXApi.h"
 @class WXApi;
 
 // 获取屏幕尺寸
