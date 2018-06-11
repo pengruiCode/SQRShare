@@ -22,6 +22,7 @@
 
 //微信SDK头文件
 #import "WXApi.h"
+@class WXApi;
 
 // 获取屏幕尺寸
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)

@@ -19,6 +19,10 @@ Pod::Spec.new do |s|
      ss.dependency "ShareSDK3"
   end
 
+  s.subspec "MOBFoundation" do |ss|
+     ss.dependency "MOBFoundation"
+  end
+
   s.subspec "ShareSDK3/ShareSDKPlatforms/WeChat" do |ss|
      ss.dependency "ShareSDK3/ShareSDKPlatforms/WeChat"
   end
