@@ -27,6 +27,13 @@ typedef void(^shareReturnBlock)(NSInteger shareState);
 
 @property (nonatomic,strong) shareReturnBlock shareReturnBlock;
 
+//微信key和签名 (必须先传入此值)
+@property (nonatomic,copy) NSString *wechatAppKey;
+@property (nonatomic,copy) NSString *wechatAppSecret;
+//qqkey和id
+@property (nonatomic,copy) NSString *qqAppId;
+@property (nonatomic,copy) NSString *qqAppKey;
+
 /**
  * 全局设置分享参数
  */

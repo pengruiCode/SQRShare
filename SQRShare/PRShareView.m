@@ -20,12 +20,24 @@
 //#import <TencentOpenAPI/TencentOAuth.h>
 //#import <TencentOpenAPI/QQApiInterface.h>
 
+#import <Toast/UIView+Toast.h>
+
 //微信SDK头文件
 @class WXApi;
 
 // 获取屏幕尺寸
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+//设置加载提示框（第三方框架：Toast）
+#define k_Toast(str)\
+\
+CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];\
+[[UIApplication sharedApplication].keyWindow  makeToast:str duration:1.0 position:CSToastPositionBottom style:style];\
+[UIApplication sharedApplication].keyWindow = NO; \
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{\
+[UIApplication sharedApplication].keyWindow = YES;\
+});\
 
 static CGFloat const buttonHeight = 90.f;
 static CGFloat const buttonWith = 76.f;
@@ -53,7 +65,7 @@ static id _instance;
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _instance = [[self alloc] initWithFrame:DEF_Window.bounds];
+        _instance = [[self alloc] initWithFrame:[UIApplication sharedApplication].keyWindow.bounds];
     });
     return _instance;
 }
@@ -148,8 +160,8 @@ static id _instance;
     }onConfiguration:^(SSDKPlatformType platformType, NSMutableDictionary *appInfo) {
         switch (platformType){
             case SSDKPlatformTypeWechat:
-                [appInfo SSDKSetupWeChatByAppId:WXApi_APPKEY
-                                      appSecret:ShareSDK_WeChat_appSecret];
+                [appInfo SSDKSetupWeChatByAppId:self.wechatAppKey
+                                      appSecret:self.wechatAppSecret];
                 break;
             default:
                 break;
@@ -198,7 +210,7 @@ static id _instance;
         {
             UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
             pasteboard.string = self.shareUrl;
-            DEF_Toast(@"复制成功");
+            k_Toast(@"复制成功");
             return;
         }
             break;
@@ -211,7 +223,7 @@ static id _instance;
      */
     
     if (!_shareParams) {
-        DEF_Toast(@"没有设置分享参数！");
+        k_Toast(@"没有设置分享参数！");
         return;
     }
     
@@ -224,7 +236,7 @@ static id _instance;
                 if (self.shareReturnBlock) {
                     self.shareReturnBlock(0);
                 }
-                DEF_Toast(@"分享成功！");
+                k_Toast(@"分享成功！");
                 break;
             }
                 
@@ -233,7 +245,7 @@ static id _instance;
                 if (self.shareReturnBlock) {
                     self.shareReturnBlock(1);
                 }
-                DEF_Toast(@"分享失败！");
+                k_Toast(@"分享失败！");
                 break;
             }
                 
