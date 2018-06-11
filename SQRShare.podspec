@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRShare"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary  	 = '自定义分享'
   s.homepage     = "https://github.com/pengruiCode/SQRShare.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
