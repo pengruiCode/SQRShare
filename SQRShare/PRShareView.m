@@ -147,7 +147,7 @@ static id _instance;
 }
 
 
-+ (void)setShareSdk {
+- (void)setShareSdk {
     [ShareSDK registerActivePlatforms:@[@(SSDKPlatformTypeWechat)]
                             onImport:^(SSDKPlatformType platformType) {
         switch (platformType){

@@ -37,7 +37,7 @@ typedef void(^shareReturnBlock)(NSInteger shareState);
 /**
  * 全局设置分享参数
  */
-+ (void)setShareSdk;
+- (void)setShareSdk;
 
 /**
  * 本次分享参数
