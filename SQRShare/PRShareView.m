@@ -7,6 +7,7 @@
 //
 
 #import "PRShareView.h"
+#import "SQRBaseDefineWithFunction.h"
 #import "PRSharePlatform.h"
 #import "PRContentSeparateButton.h"
 /**
@@ -20,8 +21,6 @@
 //#import <TencentOpenAPI/TencentOAuth.h>
 //#import <TencentOpenAPI/QQApiInterface.h>
 
-#import <Toast/UIView+Toast.h>
-
 //微信SDK头文件
 @class WXApi;
 
@@ -29,15 +28,6 @@
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
 
-//设置加载提示框（第三方框架：Toast）
-#define k_Toast(str)\
-\
-CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];\
-[[UIApplication sharedApplication].keyWindow  makeToast:str duration:1.0 position:CSToastPositionBottom style:style];\
-[UIApplication sharedApplication].keyWindow = NO; \
-dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{\
-[UIApplication sharedApplication].keyWindow = YES;\
-});\
 
 static CGFloat const buttonHeight = 90.f;
 static CGFloat const buttonWith = 76.f;
@@ -210,7 +200,7 @@ static id _instance;
         {
             UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
             pasteboard.string = self.shareUrl;
-            k_Toast(@"复制成功");
+            DEF_Toast(@"复制成功");
             return;
         }
             break;
@@ -223,7 +213,7 @@ static id _instance;
      */
     
     if (!_shareParams) {
-        k_Toast(@"没有设置分享参数！");
+        DEF_Toast(@"没有设置分享参数！");
         return;
     }
     
@@ -236,7 +226,7 @@ static id _instance;
                 if (self.shareReturnBlock) {
                     self.shareReturnBlock(0);
                 }
-                k_Toast(@"分享成功");
+                DEF_Toast(@"分享成功");
                 break;
             }
                 
@@ -245,7 +235,7 @@ static id _instance;
                 if (self.shareReturnBlock) {
                     self.shareReturnBlock(1);
                 }
-                k_Toast(@"分享失败");
+                DEF_Toast(@"分享失败");
                 break;
             }
                 
