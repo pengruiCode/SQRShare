@@ -7,7 +7,7 @@
 //
 
 #import "PRShareView.h"
-#import "SQRBaseDefineWithFunction.h"
+#import "SQRBaseDefine.h"
 #import "PRSharePlatform.h"
 #import "PRContentSeparateButton.h"
 /**
