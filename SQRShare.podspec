@@ -23,4 +23,8 @@ Pod::Spec.new do |s|
      ss.dependency "SQRBaseDefineWithFunction"
   end
 
+  s.subspec "WechatOpenSDK" do |ss|
+     ss.dependency "WechatOpenSDK"
+  end
+
  end

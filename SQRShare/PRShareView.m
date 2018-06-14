@@ -20,9 +20,9 @@
 //腾讯开放平台（对应QQ和QQ空间）SDK头文件
 //#import <TencentOpenAPI/TencentOAuth.h>
 //#import <TencentOpenAPI/QQApiInterface.h>
-
+#import "WXApi.h"
 //微信SDK头文件
-@class WXApi;
+//@class WXApi;
 
 // 获取屏幕尺寸
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
