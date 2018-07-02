@@ -45,11 +45,13 @@ typedef void(^shareReturnBlock)(NSInteger shareState);
  * images       图片
  * url          链接
  * text         描述
+ * path         分享小程序点击进入的路径，其他途径传空
  */
 - (void)shareParamsTitle:(NSString *)title
                   images:(id)images
                      url:(NSString *)url
-                    text:(NSString *)text;
+                    text:(NSString *)text
+             miniAppPath:(NSString *)path;
 
 + (instancetype)sharedInstance;
 
