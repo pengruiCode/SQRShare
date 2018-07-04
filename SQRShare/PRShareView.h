@@ -13,9 +13,10 @@ typedef NS_ENUM(NSUInteger , PRShareType) {
     PRShareTypeWechatSession    = 1,               //微信好友
     PRShareTypeWechatTimeline   = 2,               //微信朋友圈
     PRShareTypeWechatCollect    = 3,               //微信收藏
-    PRShareTypeQQ               = 4,               //QQ好友
-    PRShareTypeQzone            = 5,               //QQ空间
-    PRShareTypeUrl              = 6,               //复制链接
+    PRShareTypeWechatMiniApp    = 4,               //微信小程序
+    PRShareTypeQQ               = 5,               //QQ好友
+    PRShareTypeQzone            = 6,               //QQ空间
+    PRShareTypeUrl              = 7,               //复制链接
 };
 
 /**
@@ -27,17 +28,19 @@ typedef void(^shareReturnBlock)(NSInteger shareState);
 
 @property (nonatomic,strong) shareReturnBlock shareReturnBlock;
 
-//微信key和签名 (必须先传入此值)
-@property (nonatomic,copy) NSString *wechatAppKey;
-@property (nonatomic,copy) NSString *wechatAppSecret;
-//qqkey和id
-@property (nonatomic,copy) NSString *qqAppId;
-@property (nonatomic,copy) NSString *qqAppKey;
-
 /**
- * 全局设置分享参数
+ * 全局设置分享参数(在appdelegate)
+ * params mobKey                分享注册key
+ * params wechatKey             微信key
+ * params wechatAppSecretKey    微信签名key
+ * params qqAppKey              qqkey
+ * params qqAppId               qq注册ID
  */
-- (void)setShareSdk;
++ (void)setShareSdkParamsMobKey:(NSString *)mobKey
+                      wechatKey:(NSString *)wechatKey
+             wechatAppSecretKey:(NSString *)wechatAppSecretKey
+                       qqAppKey:(NSString *)qqAppKey
+                        qqAppId:(NSString *)qqAppId;
 
 /**
  * 本次分享参数

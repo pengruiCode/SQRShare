@@ -9,6 +9,7 @@
 #import "PRShareView.h"
 #import "PRSharePlatform.h"
 #import "PRContentSeparateButton.h"
+#import <SQRBaseDefineWithFunction/SQRBaseDefine.h>
 /**
  导入ShareSDK分享功能
  */
@@ -144,8 +145,12 @@ static id _instance;
 }
 
 
-+ (void)setShareSdk {
-    [ShareSDK registerApp:ShareSDK_APPKEY
++ (void)setShareSdkParamsMobKey:(NSString *)mobKey
+                      wechatKey:(NSString *)wechatKey
+             wechatAppSecretKey:(NSString *)wechatAppSecretKey
+                       qqAppKey:(NSString *)qqAppKey
+                        qqAppId:(NSString *)qqAppId{
+    [ShareSDK registerApp:mobKey
           activePlatforms:@[@(SSDKPlatformTypeWechat)
                             ,@(SSDKPlatformTypeQQ)
                             ]
@@ -163,12 +168,12 @@ static id _instance;
                  }onConfiguration:^(SSDKPlatformType platformType, NSMutableDictionary *appInfo){
                      switch (platformType){
                          case SSDKPlatformTypeWechat:
-                             [appInfo SSDKSetupWeChatByAppId:WXApi_APPKEY
-                                                   appSecret:ShareSDK_WeChat_appSecret];
+                             [appInfo SSDKSetupWeChatByAppId:wechatKey
+                                                   appSecret:wechatAppSecretKey];
                              break;
                          case SSDKPlatformTypeQQ:
-                             [appInfo SSDKSetupQQByAppId:ShareSDK_QQ_APPID
-                                                  appKey:ShareSDK_QQ_APPKEY
+                             [appInfo SSDKSetupQQByAppId:qqAppId
+                                                  appKey:qqAppKey
                                                 authType:SSDKAuthTypeBoth];
                              break;
                          default:
@@ -326,8 +331,8 @@ static id _instance;
     if (self.miniAppPath.length>0) {
         //微信小程序
         PRSharePlatform *wechatMiniApp = [[PRSharePlatform alloc] init];
-        wechatMiniApp.iconNormal = @"pyq_allshare";
-        wechatMiniApp.iconHighlighted = @"pyq_allshare_night";
+        wechatMiniApp.iconNormal = @"weixin_miniapp_gray";
+        wechatMiniApp.iconHighlighted = @"weixin_miniapp_night";
         wechatMiniApp.shareType = PRShareTypeWechatMiniApp;
         wechatMiniApp.name = @"微信小程序";
         [self.platformArray addObject:wechatMiniApp];

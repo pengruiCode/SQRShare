@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2E775C100092F153939CD0C5 /* libPods-SQRShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15704CE930B84AD2B353FA1 /* libPods-SQRShare.a */; };
+		9A1AC7D720EC566F00482B2B /* weixin_miniapp_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D320EC566E00482B2B /* weixin_miniapp_gray@2x.png */; };
+		9A1AC7D820EC566F00482B2B /* weixin_miniapp_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */; };
+		9A1AC7D920EC566F00482B2B /* weixin_miniapp_night@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */; };
+		9A1AC7DA20EC566F00482B2B /* weixin_miniapp_night@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */; };
 		9A2D67B120CE73DA00C986E3 /* SQRShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */; };
 		9A2D67BC20CE73DA00C986E3 /* SQRShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67BB20CE73DA00C986E3 /* SQRShareUITests.m */; };
 		9A2D67D520CE745E00C986E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67CB20CE745E00C986E3 /* AppDelegate.m */; };
@@ -62,6 +66,10 @@
 /* Begin PBXFileReference section */
 		84463B71B41A85E84755D1E7 /* Pods-SQRShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQRShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQRShare/Pods-SQRShare.release.xcconfig"; sourceTree = "<group>"; };
 		93A68BEA3C85BCC88AEF3394 /* Pods-SQRShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQRShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQRShare/Pods-SQRShare.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1AC7D320EC566E00482B2B /* weixin_miniapp_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_gray@2x.png"; sourceTree = "<group>"; };
+		9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_gray@3x.png"; sourceTree = "<group>"; };
+		9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@3x.png"; sourceTree = "<group>"; };
+		9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@2x.png"; sourceTree = "<group>"; };
 		9A2D679420CE73D100C986E3 /* SQRShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67AC20CE73DA00C986E3 /* SQRShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRShareTests.m; sourceTree = "<group>"; };
@@ -216,6 +224,10 @@
 		9A2D67E320CE746200C986E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9A1AC7D320EC566E00482B2B /* weixin_miniapp_gray@2x.png */,
+				9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */,
+				9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */,
+				9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */,
 				9A2D67E420CE746200C986E3 /* link_allshare_60x60_@2x.png */,
 				9A2D67E520CE746200C986E3 /* link_allshare_60x60_@3x.png */,
 				9A2D67E620CE746200C986E3 /* link_allshare_night_60x60_@2x.png */,
@@ -360,8 +372,10 @@
 				9A2D680220CE746200C986E3 /* pyq_allshare_night_60x60_@3x.png in Resources */,
 				9A2D680920CE746200C986E3 /* qqkj_allshare_night_60x60_@2x.png in Resources */,
 				9A2D67D920CE745E00C986E3 /* Info.plist in Resources */,
+				9A1AC7D820EC566F00482B2B /* weixin_miniapp_gray@3x.png in Resources */,
 				9A2D680820CE746200C986E3 /* qqkj_allshare_60x60_@3x.png in Resources */,
 				9A2D680020CE746200C986E3 /* pyq_allshare_60x60_@3x.png in Resources */,
+				9A1AC7DA20EC566F00482B2B /* weixin_miniapp_night@2x.png in Resources */,
 				9A2D67FE20CE746200C986E3 /* link_allshare_night_60x60_@3x.png in Resources */,
 				9A2D680620CE746200C986E3 /* qq_allshare_night_60x60_@3x.png in Resources */,
 				9A2D67D820CE745E00C986E3 /* Main.storyboard in Resources */,
@@ -374,9 +388,11 @@
 				9A2D67FF20CE746200C986E3 /* pyq_allshare_60x60_@2x.png in Resources */,
 				9A2D680520CE746200C986E3 /* qq_allshare_night_60x60_@2x.png in Resources */,
 				9A2D680B20CE746200C986E3 /* weixin_allshare_60x60_@2x.png in Resources */,
+				9A1AC7D920EC566F00482B2B /* weixin_miniapp_night@3x.png in Resources */,
 				9A2D67FC20CE746200C986E3 /* link_allshare_60x60_@3x.png in Resources */,
 				9A2D67D720CE745E00C986E3 /* LaunchScreen.storyboard in Resources */,
 				9A2D680120CE746200C986E3 /* pyq_allshare_night_60x60_@2x.png in Resources */,
+				9A1AC7D720EC566F00482B2B /* weixin_miniapp_gray@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,7 +636,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7JT4ZMJ42;
 				INFOPLIST_FILE = SQRShare/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -635,7 +654,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7JT4ZMJ42;
 				INFOPLIST_FILE = SQRShare/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,7 +670,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,7 +688,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -675,7 +705,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -688,7 +722,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
