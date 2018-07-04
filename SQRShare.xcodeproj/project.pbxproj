@@ -12,7 +12,6 @@
 		9A1AC7D820EC566F00482B2B /* weixin_miniapp_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */; };
 		9A1AC7D920EC566F00482B2B /* weixin_miniapp_night@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */; };
 		9A1AC7DA20EC566F00482B2B /* weixin_miniapp_night@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */; };
-		9A1AC7DC20EC6A0400482B2B /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7DB20EC6A0300482B2B /* TencentOpenApi_IOS_Bundle.bundle */; };
 		9A1AC7E120EC6A6100482B2B /* QQConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC7DE20EC6A6100482B2B /* QQConnector.framework */; };
 		9A1AC7E220EC6A6100482B2B /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC7DF20EC6A6100482B2B /* ShareSDKExtension.framework */; };
 		9A1AC7E320EC6A6100482B2B /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC7E020EC6A6100482B2B /* TencentOpenAPI.framework */; };
@@ -74,7 +73,6 @@
 		9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_gray@3x.png"; sourceTree = "<group>"; };
 		9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@3x.png"; sourceTree = "<group>"; };
 		9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@2x.png"; sourceTree = "<group>"; };
-		9A1AC7DB20EC6A0300482B2B /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		9A1AC7DE20EC6A6100482B2B /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnector.framework; sourceTree = "<group>"; };
 		9A1AC7DF20EC6A6100482B2B /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
 		9A1AC7E020EC6A6100482B2B /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
@@ -246,7 +244,6 @@
 		9A2D67E320CE746200C986E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				9A1AC7DB20EC6A0300482B2B /* TencentOpenApi_IOS_Bundle.bundle */,
 				9A1AC7D320EC566E00482B2B /* weixin_miniapp_gray@2x.png */,
 				9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */,
 				9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */,
@@ -404,7 +401,6 @@
 				9A2D67D820CE745E00C986E3 /* Main.storyboard in Resources */,
 				9A2D680C20CE746200C986E3 /* weixin_allshare_60x60_@3x.png in Resources */,
 				9A2D67FB20CE746200C986E3 /* link_allshare_60x60_@2x.png in Resources */,
-				9A1AC7DC20EC6A0400482B2B /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				9A2D67D620CE745E00C986E3 /* Assets.xcassets in Resources */,
 				9A2D680720CE746200C986E3 /* qqkj_allshare_60x60_@2x.png in Resources */,
 				9A2D67FD20CE746200C986E3 /* link_allshare_night_60x60_@2x.png in Resources */,
@@ -662,7 +658,10 @@
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
 				INFOPLIST_FILE = SQRShare/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -681,7 +680,10 @@
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
 				INFOPLIST_FILE = SQRShare/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,7 +696,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -708,7 +714,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -721,7 +731,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -734,7 +748,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
