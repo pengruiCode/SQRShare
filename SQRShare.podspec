@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRShare"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary  	 = '自定义分享'
   s.homepage     = "https://github.com/pengruiCode/SQRShare.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -17,6 +17,10 @@ Pod::Spec.new do |s|
 
   s.subspec "ShareSDK3" do |ss|
      ss.dependency "ShareSDK3"
+  end
+
+  s.subspec "ShareSDK3/ShareSDKPlatforms/QQ" do |ss|
+     ss.dependency "ShareSDK3/ShareSDKPlatforms/QQ"
   end
 
   s.subspec "SQRBaseDefineWithFunction" do |ss|
