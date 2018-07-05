@@ -18,7 +18,6 @@ PODS:
   - Toast (4.0.0)
 
 DEPENDENCIES:
-  - MOBFoundation
   - ShareSDK3 (~> 3.6.3)
   - ShareSDK3/ShareSDKPlatforms/WeChat
   - SQRBaseDefineWithFunction (from `https://github.com/pengruiCode/SQRBaseDefineWithFunction.git`)
@@ -46,6 +45,6 @@ SPEC CHECKSUMS:
   SQRBaseDefineWithFunction: 551b4802198e8536fd60658a8135dffa0621479c
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 8e2ec9b63ba9a18100b14a74fe220b74b9fa02d5
+PODFILE CHECKSUM: e2ae2f0d6415982614cfd46425f7af6733884d91
 
 COCOAPODS: 1.5.0

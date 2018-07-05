@@ -10,19 +10,12 @@
 #import "PRSharePlatform.h"
 #import "PRContentSeparateButton.h"
 #import <SQRBaseDefineWithFunction/SQRBaseDefine.h>
-/**
- 导入ShareSDK分享功能
- */
 #import <ShareSDK/ShareSDK.h>
-//#import <ShareSDKUI/ShareSDK+SSUI.h>
 #import <ShareSDKConnector/ShareSDKConnector.h>
-
-//腾讯开放平台（对应QQ和QQ空间）SDK头文件
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/QQApiInterface.h>
-
-//微信SDK头文件
 #import "WXApi.h"
+
 
 // 获取屏幕尺寸
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
@@ -257,15 +250,12 @@ static id _instance;
             break;
     }
     
-    /*
-     调用shareSDK的无UI分享类型，
-     */
-    
     if (!_shareParams) {
         DEF_Toast(@"没有设置分享参数！");
         return;
     }
     
+    //调用shareSDK的无UI分享类型
     [ShareSDK share:_shareType parameters:_shareParams onStateChanged:^(SSDKResponseState state, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error) {
         
         switch (state) {
