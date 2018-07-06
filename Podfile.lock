@@ -6,6 +6,8 @@ PODS:
     - ShareSDK3/ShareSDK (= 3.6.3)
   - ShareSDK3/ShareSDK (3.6.3):
     - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.6.3):
+    - MOBFoundation
   - ShareSDK3/ShareSDKPlatforms/WeChat (3.6.3):
     - MOBFoundation
   - SQRBaseDefineWithFunction (0.1.7):
@@ -19,6 +21,7 @@ PODS:
 
 DEPENDENCIES:
   - ShareSDK3 (~> 3.6.3)
+  - ShareSDK3/ShareSDKPlatforms/QQ
   - ShareSDK3/ShareSDKPlatforms/WeChat
   - SQRBaseDefineWithFunction (from `https://github.com/pengruiCode/SQRBaseDefineWithFunction.git`)
 
@@ -45,6 +48,6 @@ SPEC CHECKSUMS:
   SQRBaseDefineWithFunction: 551b4802198e8536fd60658a8135dffa0621479c
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: e2ae2f0d6415982614cfd46425f7af6733884d91
+PODFILE CHECKSUM: 29ef6227c8eda721348ea1abb46c4b736ffe9682
 
 COCOAPODS: 1.5.0

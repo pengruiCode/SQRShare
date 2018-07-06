@@ -4,10 +4,8 @@ inhibit_all_warnings!
 target 'SQRShare' do
     
 
-pod 'ShareSDK3', '~> 3.6.3'                         # ShareSDK
-#pod 'MOBFoundation'
-#pod 'ShareSDK3/ShareSDKUI'
-#pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3', '~> 3.6.3'               # ShareSDK
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
 pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
 
 
