@@ -12,6 +12,13 @@
 		9A1AC7D820EC566F00482B2B /* weixin_miniapp_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */; };
 		9A1AC7D920EC566F00482B2B /* weixin_miniapp_night@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */; };
 		9A1AC7DA20EC566F00482B2B /* weixin_miniapp_night@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */; };
+		9A1AC81B20EF050600482B2B /* QQConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81620EF050600482B2B /* QQConnector.framework */; };
+		9A1AC81C20EF050600482B2B /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81720EF050600482B2B /* ShareSDK.framework */; };
+		9A1AC81D20EF050600482B2B /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81820EF050600482B2B /* ShareSDKConnector.framework */; };
+		9A1AC81E20EF050600482B2B /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81920EF050600482B2B /* ShareSDKExtension.framework */; };
+		9A1AC81F20EF050600482B2B /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */; };
+		9A1AC82220EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC82020EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle */; };
+		9A1AC82320EF051000482B2B /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC82120EF051000482B2B /* ShareSDK.bundle */; };
 		9A2D67B120CE73DA00C986E3 /* SQRShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */; };
 		9A2D67BC20CE73DA00C986E3 /* SQRShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67BB20CE73DA00C986E3 /* SQRShareUITests.m */; };
 		9A2D67D520CE745E00C986E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67CB20CE745E00C986E3 /* AppDelegate.m */; };
@@ -70,6 +77,13 @@
 		9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_gray@3x.png"; sourceTree = "<group>"; };
 		9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@3x.png"; sourceTree = "<group>"; };
 		9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@2x.png"; sourceTree = "<group>"; };
+		9A1AC81620EF050600482B2B /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnector.framework; sourceTree = "<group>"; };
+		9A1AC81720EF050600482B2B /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		9A1AC81820EF050600482B2B /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		9A1AC81920EF050600482B2B /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		9A1AC82020EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		9A1AC82120EF051000482B2B /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
 		9A2D679420CE73D100C986E3 /* SQRShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67AC20CE73DA00C986E3 /* SQRShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRShareTests.m; sourceTree = "<group>"; };
@@ -120,7 +134,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1AC81C20EF050600482B2B /* ShareSDK.framework in Frameworks */,
+				9A1AC81F20EF050600482B2B /* TencentOpenAPI.framework in Frameworks */,
+				9A1AC81B20EF050600482B2B /* QQConnector.framework in Frameworks */,
+				9A1AC81E20EF050600482B2B /* ShareSDKExtension.framework in Frameworks */,
 				2E775C100092F153939CD0C5 /* libPods-SQRShare.a in Frameworks */,
+				9A1AC81D20EF050600482B2B /* ShareSDKConnector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +167,18 @@
 				84463B71B41A85E84755D1E7 /* Pods-SQRShare.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A1AC81520EF050600482B2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A1AC81620EF050600482B2B /* QQConnector.framework */,
+				9A1AC81720EF050600482B2B /* ShareSDK.framework */,
+				9A1AC81820EF050600482B2B /* ShareSDKConnector.framework */,
+				9A1AC81920EF050600482B2B /* ShareSDKExtension.framework */,
+				9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		9A2D678B20CE73D100C986E3 = {
@@ -216,6 +247,7 @@
 				9A2D67E020CE746200C986E3 /* PRSharePlatform.m */,
 				9A2D67E120CE746200C986E3 /* PRShareView.h */,
 				9A2D67E220CE746200C986E3 /* PRShareView.m */,
+				9A1AC81520EF050600482B2B /* Frameworks */,
 				9A2D67E320CE746200C986E3 /* Resource */,
 			);
 			path = SQRShare;
@@ -224,6 +256,8 @@
 		9A2D67E320CE746200C986E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9A1AC82120EF051000482B2B /* ShareSDK.bundle */,
+				9A1AC82020EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle */,
 				9A1AC7D320EC566E00482B2B /* weixin_miniapp_gray@2x.png */,
 				9A1AC7D420EC566E00482B2B /* weixin_miniapp_gray@3x.png */,
 				9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */,
@@ -381,6 +415,8 @@
 				9A2D67D820CE745E00C986E3 /* Main.storyboard in Resources */,
 				9A2D680C20CE746200C986E3 /* weixin_allshare_60x60_@3x.png in Resources */,
 				9A2D67FB20CE746200C986E3 /* link_allshare_60x60_@2x.png in Resources */,
+				9A1AC82320EF051000482B2B /* ShareSDK.bundle in Resources */,
+				9A1AC82220EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				9A2D67D620CE745E00C986E3 /* Assets.xcassets in Resources */,
 				9A2D680720CE746200C986E3 /* qqkj_allshare_60x60_@2x.png in Resources */,
 				9A2D67FD20CE746200C986E3 /* link_allshare_night_60x60_@2x.png in Resources */,
@@ -640,7 +676,10 @@
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
 				INFOPLIST_FILE = SQRShare/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -659,7 +698,10 @@
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
 				INFOPLIST_FILE = SQRShare/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -672,7 +714,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -686,7 +732,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -699,7 +749,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -712,7 +766,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
