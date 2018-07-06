@@ -13,12 +13,12 @@
 		9A1AC7D920EC566F00482B2B /* weixin_miniapp_night@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */; };
 		9A1AC7DA20EC566F00482B2B /* weixin_miniapp_night@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */; };
 		9A1AC81B20EF050600482B2B /* QQConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81620EF050600482B2B /* QQConnector.framework */; };
-		9A1AC81C20EF050600482B2B /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81720EF050600482B2B /* ShareSDK.framework */; };
-		9A1AC81D20EF050600482B2B /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81820EF050600482B2B /* ShareSDKConnector.framework */; };
-		9A1AC81E20EF050600482B2B /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81920EF050600482B2B /* ShareSDKExtension.framework */; };
 		9A1AC81F20EF050600482B2B /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */; };
 		9A1AC82220EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC82020EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle */; };
 		9A1AC82320EF051000482B2B /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC82120EF051000482B2B /* ShareSDK.bundle */; };
+		9A1AC82720EF0A5900482B2B /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC82420EF0A5900482B2B /* ShareSDKConnector.framework */; };
+		9A1AC82820EF0A5900482B2B /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC82520EF0A5900482B2B /* ShareSDK.framework */; };
+		9A1AC82920EF0A5900482B2B /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC82620EF0A5900482B2B /* ShareSDKExtension.framework */; };
 		9A2D67B120CE73DA00C986E3 /* SQRShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */; };
 		9A2D67BC20CE73DA00C986E3 /* SQRShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67BB20CE73DA00C986E3 /* SQRShareUITests.m */; };
 		9A2D67D520CE745E00C986E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67CB20CE745E00C986E3 /* AppDelegate.m */; };
@@ -78,12 +78,12 @@
 		9A1AC7D520EC566E00482B2B /* weixin_miniapp_night@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@3x.png"; sourceTree = "<group>"; };
 		9A1AC7D620EC566E00482B2B /* weixin_miniapp_night@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_miniapp_night@2x.png"; sourceTree = "<group>"; };
 		9A1AC81620EF050600482B2B /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnector.framework; sourceTree = "<group>"; };
-		9A1AC81720EF050600482B2B /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
-		9A1AC81820EF050600482B2B /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
-		9A1AC81920EF050600482B2B /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
 		9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		9A1AC82020EF051000482B2B /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		9A1AC82120EF051000482B2B /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		9A1AC82420EF0A5900482B2B /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		9A1AC82520EF0A5900482B2B /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		9A1AC82620EF0A5900482B2B /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
 		9A2D679420CE73D100C986E3 /* SQRShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67AC20CE73DA00C986E3 /* SQRShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRShareTests.m; sourceTree = "<group>"; };
@@ -134,12 +134,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A1AC81C20EF050600482B2B /* ShareSDK.framework in Frameworks */,
 				9A1AC81F20EF050600482B2B /* TencentOpenAPI.framework in Frameworks */,
 				9A1AC81B20EF050600482B2B /* QQConnector.framework in Frameworks */,
-				9A1AC81E20EF050600482B2B /* ShareSDKExtension.framework in Frameworks */,
 				2E775C100092F153939CD0C5 /* libPods-SQRShare.a in Frameworks */,
-				9A1AC81D20EF050600482B2B /* ShareSDKConnector.framework in Frameworks */,
+				9A1AC82720EF0A5900482B2B /* ShareSDKConnector.framework in Frameworks */,
+				9A1AC82820EF0A5900482B2B /* ShareSDK.framework in Frameworks */,
+				9A1AC82920EF0A5900482B2B /* ShareSDKExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,10 +172,10 @@
 		9A1AC81520EF050600482B2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A1AC82520EF0A5900482B2B /* ShareSDK.framework */,
+				9A1AC82420EF0A5900482B2B /* ShareSDKConnector.framework */,
+				9A1AC82620EF0A5900482B2B /* ShareSDKExtension.framework */,
 				9A1AC81620EF050600482B2B /* QQConnector.framework */,
-				9A1AC81720EF050600482B2B /* ShareSDK.framework */,
-				9A1AC81820EF050600482B2B /* ShareSDKConnector.framework */,
-				9A1AC81920EF050600482B2B /* ShareSDKExtension.framework */,
 				9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */,
 			);
 			path = Frameworks;
@@ -305,7 +305,7 @@
 				9A2D679020CE73D100C986E3 /* Sources */,
 				9A2D679120CE73D100C986E3 /* Frameworks */,
 				9A2D679220CE73D100C986E3 /* Resources */,
-				A79D2E0BD78B6DF7CE5814BF /* [CP] Copy Pods Resources */,
+				51B831AB0C1D092C5050936B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,20 +467,18 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A79D2E0BD78B6DF7CE5814BF /* [CP] Copy Pods Resources */ = {
+		51B831AB0C1D092C5050936B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SQRShare/Pods-SQRShare-resources.sh",
-				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/Required/ShareSDK.bundle",
-				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -675,7 +673,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
-				INFOPLIST_FILE = SQRShare/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SQRShareExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,7 +695,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
-				INFOPLIST_FILE = SQRShare/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SQRShareExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
