@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRShare"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary  	 = '自定义分享'
   s.homepage     = "https://github.com/pengruiCode/SQRShare.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = "SQRShare/**/*.{h,m}"
   s.resource     = 'SQRShare/Resource/*.{png,bundle}'
   s.vendored_frameworks = 'SQRShare/Frameworks/*.framework'
+  s.vendored_libraries  = 'SQRShare/Libraries/*.a'
   s.requires_arc = true
   s.description  = <<-DESC
 			自定义分享，基于sharesdk

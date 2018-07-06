@@ -6,7 +6,7 @@ target 'SQRShare' do
 
 #pod 'ShareSDK3', '~> 3.6.3'               # ShareSDK
 #pod 'ShareSDK3/ShareSDKPlatforms/QQ'
-pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+#pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull'
 
 
 # 主模块(必须)
