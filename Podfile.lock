@@ -1,5 +1,13 @@
 PODS:
   - MBProgressHUD (1.1.0)
+  - MOBFoundation (3.1.6)
+  - ShareSDK3 (3.6.3):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 3.6.3)
+  - ShareSDK3/ShareSDK (3.6.3):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.6.3):
+    - MOBFoundation
   - SQRBaseDefineWithFunction (0.1.7):
     - SQRBaseDefineWithFunction/MBProgressHUD (= 0.1.7)
     - SQRBaseDefineWithFunction/Toast (= 0.1.7)
@@ -8,14 +16,21 @@ PODS:
   - SQRBaseDefineWithFunction/Toast (0.1.7):
     - Toast
   - Toast (4.0.0)
+  - WechatOpenSDK (1.8.2)
 
 DEPENDENCIES:
+  - ShareSDK3 (~> 3.6.3)
+  - ShareSDK3/ShareSDKPlatforms/QQ
   - SQRBaseDefineWithFunction (from `https://github.com/pengruiCode/SQRBaseDefineWithFunction.git`)
+  - WechatOpenSDK
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - MBProgressHUD
+    - MOBFoundation
+    - ShareSDK3
     - Toast
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   SQRBaseDefineWithFunction:
@@ -28,9 +43,12 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MOBFoundation: a87c5f11fb87f873337189c3ec0add4d3ec6221a
+  ShareSDK3: d271520113160eb24b31cd642b45b38fcd592d93
   SQRBaseDefineWithFunction: 551b4802198e8536fd60658a8135dffa0621479c
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
 
-PODFILE CHECKSUM: 6dfdb91063a1b8ae83b52dda16c3d4d108b409e5
+PODFILE CHECKSUM: 6b17d9cce766d881ac16060fdabb16c7d42764db
 
 COCOAPODS: 1.5.0

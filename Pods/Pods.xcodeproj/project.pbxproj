@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D3674D506911D107570091A9183A2FC /* SQRDateFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 472FCE0B07728357F570349998B3736C /* SQRDateFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0D3674D506911D107570091A9183A2FC /* SQRDateFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 72629E3FFB675CC6058BDD6FA1DF70B2 /* SQRDateFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
-		1D90D5BF91D4F1FCF3E9C0F1D59DCEAA /* SQRBaseDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A80B45F1A79197314543AA3AD9BB71E /* SQRBaseDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2B9F97F76677CCF223AB9E8AE56DA442 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = FA448E9BCD2E7E651E3100A22592FF15 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D2EA0546663F24109E3896532E8A5F1 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B76F99D6D823ED13BE56F00B45C568D7 /* Toast-dummy.m */; };
-		2D9A159848D43F24A4B2F54C02454E84 /* UIView+Tap.h in Headers */ = {isa = PBXBuildFile; fileRef = E096CD0FD7879644192D206BC0546815 /* UIView+Tap.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3A83303DD8ED926F4392A41371652622 /* SQRCommonFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F2BDCEC2BC9C8845E36B67EAF4168A /* SQRCommonFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D90D5BF91D4F1FCF3E9C0F1D59DCEAA /* SQRBaseDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1D11848F9304ED6F99C4B9F170C757 /* SQRBaseDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B9F97F76677CCF223AB9E8AE56DA442 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 427687027273C5F7A405149DDC4CD829 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D2EA0546663F24109E3896532E8A5F1 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA4D61212A53D8F5EFCD1D2725B63 /* Toast-dummy.m */; };
+		2D9A159848D43F24A4B2F54C02454E84 /* UIView+Tap.h in Headers */ = {isa = PBXBuildFile; fileRef = A9761158F43C4182C46D6D64B749672C /* UIView+Tap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A83303DD8ED926F4392A41371652622 /* SQRCommonFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7513510EDF4681F2D3C052819AFF92 /* SQRCommonFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A55A0D3233F684422A443334D84D598 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
-		4C09A14593CA4AD0A73C405D57ADA374 /* SQRDataSave.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E70843E8F1216A41B2095A14401B6 /* SQRDataSave.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F093008D056475A866FE6856304C33E /* SQRSystemApiFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB45B416A3D1B9BA2DF3EBF317F620D /* SQRSystemApiFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		505D9310A142E1EFEE4B923F3F0872D5 /* UILabel+FlickerNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFEFF00CA91C1AF6D13B205459D175A /* UILabel+FlickerNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6837AD005926AB2974513453DB787C5A /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5069408864C9EF8FFE2EE9A2C108A9 /* MBProgressHUD-dummy.m */; };
-		6856447FA5EAB6D5B13BE9EEC85AD7B0 /* SQRDataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ADE745F1998974A912D54AC9047848 /* SQRDataSave.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C09A14593CA4AD0A73C405D57ADA374 /* SQRDataSave.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD419493EF893B8589549FB773A658A /* SQRDataSave.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F093008D056475A866FE6856304C33E /* SQRSystemApiFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = A820DE073478E1904D28CE0386F0FAFB /* SQRSystemApiFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		505D9310A142E1EFEE4B923F3F0872D5 /* UILabel+FlickerNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 396BD3BC2C8D122CF0E9A599F242761D /* UILabel+FlickerNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6837AD005926AB2974513453DB787C5A /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D7611F94B545DF14053209D3E31E91 /* MBProgressHUD-dummy.m */; };
+		6856447FA5EAB6D5B13BE9EEC85AD7B0 /* SQRDataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BBE1DECEE25A8CBAAB0B528E3297A /* SQRDataSave.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		69437B0705D58EFFAC0E559B72C583E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		724FE4905DD04C26C56E695120A9EDED /* SQRBaseDefineWithFunction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9C73A48B8586602D68CF0326B941D3 /* SQRBaseDefineWithFunction-dummy.m */; };
+		724FE4905DD04C26C56E695120A9EDED /* SQRBaseDefineWithFunction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 683A1F496EEBD4DBAD5C17A337259FAE /* SQRBaseDefineWithFunction-dummy.m */; };
 		7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
-		74D70E35A159B72D6C739F0A5340784C /* SQRSystemApiFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A83811193E3152A66678959965D6B3 /* SQRSystemApiFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8280154EDA24F943C94C8E99782B2175 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0455E02D1ED4D8B0E703BD5148A231 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		848806B7A7B55931DD591C49C01FE4B1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 316327F347D2D147A86995CA42D53BF8 /* UIView+Frame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		897E2BE6A305D26BEF1B828D55F0F1DC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F97363CCD8FC647E7DA97631F902968 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8EF4CD0AD3A9FB8A3A845138268B5063 /* SQRDateFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD1A4AAB1897B800E8CDF5B2DA659EC /* SQRDateFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74D70E35A159B72D6C739F0A5340784C /* SQRSystemApiFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247D368020FD1E72D561DA08D36A3B8 /* SQRSystemApiFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8280154EDA24F943C94C8E99782B2175 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08746672E868130A77C8073433B799 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		848806B7A7B55931DD591C49C01FE4B1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 89472C2BF946FD8824E844F441786A6D /* UIView+Frame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		897E2BE6A305D26BEF1B828D55F0F1DC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6EE5EF963AF00D2F5C5F4661D96A00 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EF4CD0AD3A9FB8A3A845138268B5063 /* SQRDateFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1165BE21DFD442A6E7FAB4522921AAC9 /* SQRDateFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		9539F0B740E3B736E9A3F8B40B3FD6EA /* SQRCommonFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB07F273BFB8D0D2EB7968D25E2930 /* SQRCommonFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9609899B07B769A1F6C120ABA91DA127 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = DC980456C77DF1201C18DF5BE5F85FE2 /* UIView+Tap.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9539F0B740E3B736E9A3F8B40B3FD6EA /* SQRCommonFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 329CC3CEE2C092F14B2351279FF64660 /* SQRCommonFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9609899B07B769A1F6C120ABA91DA127 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C451D5382712ECFE3AA41BD8A0A45 /* UIView+Tap.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AA3D92ACBC233C320661072E7835A145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		CB08D3B1A81B4DF4E2B9910B5C9A019B /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9FCF9647E97105AF0A68156BF7583A /* Toast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB08D3B1A81B4DF4E2B9910B5C9A019B /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DB64EE58DDFE4C6B6B126139274051 /* Toast.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB939DEAE11C579E271ECF9845F29796 /* Pods-SQRShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE1907DCFB34ED4EE93C12E1580932 /* Pods-SQRShare-dummy.m */; };
 		D2B00B2462CF6617E995683701B5DB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		D2C17761C9F54BDCC717228F7BA07EEC /* UILabel+FlickerNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856628DCEB9474EF4F0568D511A13B7 /* UILabel+FlickerNumber.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D3744E2D9AB3DB3D5701BC0C52F29A94 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C507FC6192487CFAFC0DCC0820BDF4 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6EB93F9F0E4C5727BFC3147BA91C599 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A0422D95873BBAA645608003DA4B59 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D2C17761C9F54BDCC717228F7BA07EEC /* UILabel+FlickerNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D35869025E10B4F79BB3014E27504C5 /* UILabel+FlickerNumber.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3744E2D9AB3DB3D5701BC0C52F29A94 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = FADE13EF0F4D47CB6D67783F727CBF63 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6EB93F9F0E4C5727BFC3147BA91C599 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E6666F81F596B8B533D7EE8347BC8507 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,50 +79,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0105F9EAABB052B2ACD44D1E7F628FE0 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		0665653090ADBA8D7EE5465F97618B38 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		06D3697B90DB9E8EF2870FDED1B4A8C6 /* SQRBaseDefineWithFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQRBaseDefineWithFunction-prefix.pch"; sourceTree = "<group>"; };
+		01C7A369636D3243B0A189BF580C4873 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		04D958BF7BA02297C907C5564F3643B9 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		0F6EE5EF963AF00D2F5C5F4661D96A00 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1165BE21DFD442A6E7FAB4522921AAC9 /* SQRDateFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRDateFunction.h; path = SQRBaseDefineWithFunction/SQRDateFunction.h; sourceTree = "<group>"; };
 		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		15BB07F273BFB8D0D2EB7968D25E2930 /* SQRCommonFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRCommonFunction.m; path = SQRBaseDefineWithFunction/SQRCommonFunction.m; sourceTree = "<group>"; };
+		1A1D11848F9304ED6F99C4B9F170C757 /* SQRBaseDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRBaseDefine.h; path = SQRBaseDefineWithFunction/SQRBaseDefine.h; sourceTree = "<group>"; };
+		1AABADC8FFE8FC28E551B63886C70CFC /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WechatSDK1.8.2/WechatAuthSDK.h; sourceTree = "<group>"; };
 		1F3E03DB5E970797868A72DE6A4606A5 /* Pods-SQRShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SQRShare-acknowledgements.plist"; sourceTree = "<group>"; };
+		23A92DBC2129D00ACBC44A38A6E01617 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WechatSDK1.8.2/WXApiObject.h; sourceTree = "<group>"; };
 		2547C1210982272501710961FC5CC086 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A83811193E3152A66678959965D6B3 /* SQRSystemApiFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRSystemApiFunction.m; path = SQRBaseDefineWithFunction/SQRSystemApiFunction.m; sourceTree = "<group>"; };
-		316327F347D2D147A86995CA42D53BF8 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "SQRBaseDefineWithFunction/UIView+Frame.m"; sourceTree = "<group>"; };
+		2C741DEB009B14E03D76BB5F9CFF3D7A /* SQRBaseDefineWithFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQRBaseDefineWithFunction-prefix.pch"; sourceTree = "<group>"; };
+		31DB64EE58DDFE4C6B6B126139274051 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		329CC3CEE2C092F14B2351279FF64660 /* SQRCommonFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRCommonFunction.m; path = SQRBaseDefineWithFunction/SQRCommonFunction.m; sourceTree = "<group>"; };
+		35D7611F94B545DF14053209D3E31E91 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		396BD3BC2C8D122CF0E9A599F242761D /* UILabel+FlickerNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FlickerNumber.h"; path = "SQRBaseDefineWithFunction/UILabel+FlickerNumber.h"; sourceTree = "<group>"; };
+		3BD419493EF893B8589549FB773A658A /* SQRDataSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRDataSave.h; path = SQRBaseDefineWithFunction/SQRDataSave.h; sourceTree = "<group>"; };
 		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		472FCE0B07728357F570349998B3736C /* SQRDateFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRDateFunction.m; path = SQRBaseDefineWithFunction/SQRDateFunction.m; sourceTree = "<group>"; };
-		4AFEFF00CA91C1AF6D13B205459D175A /* UILabel+FlickerNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FlickerNumber.h"; path = "SQRBaseDefineWithFunction/UILabel+FlickerNumber.h"; sourceTree = "<group>"; };
-		4DD1A4AAB1897B800E8CDF5B2DA659EC /* SQRDateFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRDateFunction.h; path = SQRBaseDefineWithFunction/SQRDateFunction.h; sourceTree = "<group>"; };
+		4247D368020FD1E72D561DA08D36A3B8 /* SQRSystemApiFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRSystemApiFunction.m; path = SQRBaseDefineWithFunction/SQRSystemApiFunction.m; sourceTree = "<group>"; };
+		427687027273C5F7A405149DDC4CD829 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
 		50C401E9D2D56F9EE7D6F139B6C91E1D /* Pods-SQRShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SQRShare-acknowledgements.markdown"; sourceTree = "<group>"; };
 		511C19B5DC95C136351599FCDFF61435 /* Pods-SQRShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQRShare.debug.xcconfig"; sourceTree = "<group>"; };
 		51260681B349B9BEC8909198C5CA0808 /* Pods-SQRShare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQRShare-frameworks.sh"; sourceTree = "<group>"; };
-		54A0422D95873BBAA645608003DA4B59 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		5A80B45F1A79197314543AA3AD9BB71E /* SQRBaseDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRBaseDefine.h; path = SQRBaseDefineWithFunction/SQRBaseDefine.h; sourceTree = "<group>"; };
+		5A4DF1EFD8005C25607C4A6FD504DE13 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		6D453E70EDA2D4E33717CA637CBCF266 /* SQRBaseDefineWithFunction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQRBaseDefineWithFunction.xcconfig; sourceTree = "<group>"; };
+		61897C7EC1E40B8493148DF341F05D04 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		683A1F496EEBD4DBAD5C17A337259FAE /* SQRBaseDefineWithFunction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQRBaseDefineWithFunction-dummy.m"; sourceTree = "<group>"; };
+		6C7513510EDF4681F2D3C052819AFF92 /* SQRCommonFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRCommonFunction.h; path = SQRBaseDefineWithFunction/SQRCommonFunction.h; sourceTree = "<group>"; };
+		72629E3FFB675CC6058BDD6FA1DF70B2 /* SQRDateFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRDateFunction.m; path = SQRBaseDefineWithFunction/SQRDateFunction.m; sourceTree = "<group>"; };
 		73DBB301C94DAD7102C7234613670B13 /* Pods-SQRShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SQRShare.release.xcconfig"; sourceTree = "<group>"; };
 		74BE1907DCFB34ED4EE93C12E1580932 /* Pods-SQRShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQRShare-dummy.m"; sourceTree = "<group>"; };
 		752C2BB28E25D71894C3B9E24B2BD92C /* Pods-SQRShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SQRShare-resources.sh"; sourceTree = "<group>"; };
+		7645549A3DDDFD8EF742D37A49608A8F /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		7D35869025E10B4F79BB3014E27504C5 /* UILabel+FlickerNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FlickerNumber.m"; path = "SQRBaseDefineWithFunction/UILabel+FlickerNumber.m"; sourceTree = "<group>"; };
 		7E5FD88E20CBE7EE74FDDC02CCDF81CF /* libSQRBaseDefineWithFunction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQRBaseDefineWithFunction.a; path = libSQRBaseDefineWithFunction.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8856628DCEB9474EF4F0568D511A13B7 /* UILabel+FlickerNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FlickerNumber.m"; path = "SQRBaseDefineWithFunction/UILabel+FlickerNumber.m"; sourceTree = "<group>"; };
-		8CCED1107F25E54F02D0040B1421C1F3 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
-		8F0455E02D1ED4D8B0E703BD5148A231 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		7F7A6483444D72B934C929F99BB9919B /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WechatSDK1.8.2/libWeChatSDK.a; sourceTree = "<group>"; };
+		8343FEFEA8B10F67C5BF57F5166912D3 /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		86D6A5CEF569239A40ECE6A2136B22EB /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		89472C2BF946FD8824E844F441786A6D /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "SQRBaseDefineWithFunction/UIView+Frame.m"; sourceTree = "<group>"; };
+		8E974FE5CA01A69E5525B8C54B0F7758 /* ShareSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDK.bundle; path = ShareSDK/Support/Required/ShareSDK.bundle; sourceTree = "<group>"; };
+		92B65CA43CFB69759B89775ED9C57B9F /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		963E70843E8F1216A41B2095A14401B6 /* SQRDataSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRDataSave.h; path = SQRBaseDefineWithFunction/SQRDataSave.h; sourceTree = "<group>"; };
-		9F97363CCD8FC647E7DA97631F902968 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9A313165F28543D8ECC05D82C3E874B8 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		9BD7AF373E9B526407DE484F679DDC9E /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QQConnector.framework; path = ShareSDK/Support/PlatformConnector/QQConnector.framework; sourceTree = "<group>"; };
+		A21C451D5382712ECFE3AA41BD8A0A45 /* UIView+Tap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Tap.m"; path = "SQRBaseDefineWithFunction/UIView+Tap.m"; sourceTree = "<group>"; };
 		A227DCA541DFFB3DF1230BCC68417319 /* libPods-SQRShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SQRShare.a"; path = "libPods-SQRShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5069408864C9EF8FFE2EE9A2C108A9 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		AFB45B416A3D1B9BA2DF3EBF317F620D /* SQRSystemApiFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRSystemApiFunction.h; path = SQRBaseDefineWithFunction/SQRSystemApiFunction.h; sourceTree = "<group>"; };
-		B76F99D6D823ED13BE56F00B45C568D7 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
-		BA9FCF9647E97105AF0A68156BF7583A /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
-		C9EDFD119CBACC1E07D74CD59E303620 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
-		CA9C73A48B8586602D68CF0326B941D3 /* SQRBaseDefineWithFunction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQRBaseDefineWithFunction-dummy.m"; sourceTree = "<group>"; };
+		A820DE073478E1904D28CE0386F0FAFB /* SQRSystemApiFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRSystemApiFunction.h; path = SQRBaseDefineWithFunction/SQRSystemApiFunction.h; sourceTree = "<group>"; };
+		A9761158F43C4182C46D6D64B749672C /* UIView+Tap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Tap.h"; path = "SQRBaseDefineWithFunction/UIView+Tap.h"; sourceTree = "<group>"; };
+		AFDAD5F55DA4FAAE2A6D58F6EEE84CB0 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		BD08746672E868130A77C8073433B799 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
 		CAD7AB02BAC97D53C5670C2D37B6EB05 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libToast.a; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1ADE745F1998974A912D54AC9047848 /* SQRDataSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRDataSave.m; path = SQRBaseDefineWithFunction/SQRDataSave.m; sourceTree = "<group>"; };
-		DC980456C77DF1201C18DF5BE5F85FE2 /* UIView+Tap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Tap.m"; path = "SQRBaseDefineWithFunction/UIView+Tap.m"; sourceTree = "<group>"; };
-		E096CD0FD7879644192D206BC0546815 /* UIView+Tap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Tap.h"; path = "SQRBaseDefineWithFunction/UIView+Tap.h"; sourceTree = "<group>"; };
-		E7F2BDCEC2BC9C8845E36B67EAF4168A /* SQRCommonFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQRCommonFunction.h; path = SQRBaseDefineWithFunction/SQRCommonFunction.h; sourceTree = "<group>"; };
-		F8C507FC6192487CFAFC0DCC0820BDF4 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "SQRBaseDefineWithFunction/UIView+Frame.h"; sourceTree = "<group>"; };
-		FA448E9BCD2E7E651E3100A22592FF15 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		CEDEA4D61212A53D8F5EFCD1D2725B63 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		E15715E4EABBAC1307BE28F76C651CD5 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKExtension.framework; path = ShareSDK/Support/Optional/ShareSDKExtension.framework; sourceTree = "<group>"; };
+		E27575C97F979AB805DAE96C91DCE11C /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WechatSDK1.8.2/WXApi.h; sourceTree = "<group>"; };
+		E6666F81F596B8B533D7EE8347BC8507 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F24BBE1DECEE25A8CBAAB0B528E3297A /* SQRDataSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQRDataSave.m; path = SQRBaseDefineWithFunction/SQRDataSave.m; sourceTree = "<group>"; };
+		FADE13EF0F4D47CB6D67783F727CBF63 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "SQRBaseDefineWithFunction/UIView+Frame.h"; sourceTree = "<group>"; };
+		FDED5F3B068585F7BEDBCE2C696ED9F7 /* SQRBaseDefineWithFunction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQRBaseDefineWithFunction.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,26 +177,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A3C7D9F1C5C921F779A1DC554325B58 /* Support Files */ = {
+		08332B1BC27D84161F80F5E9CA6C16BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D453E70EDA2D4E33717CA637CBCF266 /* SQRBaseDefineWithFunction.xcconfig */,
-				CA9C73A48B8586602D68CF0326B941D3 /* SQRBaseDefineWithFunction-dummy.m */,
-				06D3697B90DB9E8EF2870FDED1B4A8C6 /* SQRBaseDefineWithFunction-prefix.pch */,
+				9BD7AF373E9B526407DE484F679DDC9E /* QQConnector.framework */,
+				E15715E4EABBAC1307BE28F76C651CD5 /* ShareSDKExtension.framework */,
+				61897C7EC1E40B8493148DF341F05D04 /* TencentOpenAPI.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SQRBaseDefineWithFunction";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F599C374E38D3D535207205D35FAD1F /* MBProgressHUD */ = {
+		1173BB43AE8A7D2F736663B9166F3B58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F97363CCD8FC647E7DA97631F902968 /* MBProgressHUD.h */,
-				54A0422D95873BBAA645608003DA4B59 /* MBProgressHUD.m */,
-				DB203A6D84333E06CBAB52536D7D4F2C /* Support Files */,
+				AFDAD5F55DA4FAAE2A6D58F6EEE84CB0 /* MBProgressHUD.xcconfig */,
+				35D7611F94B545DF14053209D3E31E91 /* MBProgressHUD-dummy.m */,
+				7645549A3DDDFD8EF742D37A49608A8F /* MBProgressHUD-prefix.pch */,
 			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -192,6 +204,26 @@
 				5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F7C8074301D7A358ABE3880A07EF79F /* ShareSDKPlatforms */ = {
+			isa = PBXGroup;
+			children = (
+				FC1C6BBDBB0FFB044FC7E894024A9FB1 /* QQ */,
+			);
+			name = ShareSDKPlatforms;
+			sourceTree = "<group>";
+		};
+		4818BBF8AABD2B8AAA539343B5DA5C45 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				31DB64EE58DDFE4C6B6B126139274051 /* Toast.h */,
+				427687027273C5F7A405149DDC4CD829 /* UIView+Toast.h */,
+				BD08746672E868130A77C8073433B799 /* UIView+Toast.m */,
+				A97E64D93A363E853FB1177C8F9E3D29 /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */ = {
@@ -204,27 +236,124 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6D21E2DC26228C0039E9CD0DED5141DC /* SQRBaseDefineWithFunction */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D11848F9304ED6F99C4B9F170C757 /* SQRBaseDefine.h */,
+				6C7513510EDF4681F2D3C052819AFF92 /* SQRCommonFunction.h */,
+				329CC3CEE2C092F14B2351279FF64660 /* SQRCommonFunction.m */,
+				3BD419493EF893B8589549FB773A658A /* SQRDataSave.h */,
+				F24BBE1DECEE25A8CBAAB0B528E3297A /* SQRDataSave.m */,
+				1165BE21DFD442A6E7FAB4522921AAC9 /* SQRDateFunction.h */,
+				72629E3FFB675CC6058BDD6FA1DF70B2 /* SQRDateFunction.m */,
+				A820DE073478E1904D28CE0386F0FAFB /* SQRSystemApiFunction.h */,
+				4247D368020FD1E72D561DA08D36A3B8 /* SQRSystemApiFunction.m */,
+				396BD3BC2C8D122CF0E9A599F242761D /* UILabel+FlickerNumber.h */,
+				7D35869025E10B4F79BB3014E27504C5 /* UILabel+FlickerNumber.m */,
+				FADE13EF0F4D47CB6D67783F727CBF63 /* UIView+Frame.h */,
+				89472C2BF946FD8824E844F441786A6D /* UIView+Frame.m */,
+				A9761158F43C4182C46D6D64B749672C /* UIView+Tap.h */,
+				A21C451D5382712ECFE3AA41BD8A0A45 /* UIView+Tap.m */,
+				C9C824560AE27965648301AD61C3CBE6 /* Support Files */,
+			);
+			name = SQRBaseDefineWithFunction;
+			path = SQRBaseDefineWithFunction;
+			sourceTree = "<group>";
+		};
+		7192BEDBEF7EA41B800B5F8635215DAE /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6201309C3D61D7DB438D8598E4DE32C /* Frameworks */,
+				D7C3FB62309AA6557A05ABA9948B8FDD /* Resources */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		780506B967B6DF1832C01481F973540C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F7A6483444D72B934C929F99BB9919B /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				DD6B13A239952858FF540C716DA22DB8 /* Pods */,
+				8492D7281BD27BDE5D464133811ED0C5 /* Pods */,
 				C48461B83C73326F3F8413CD7E93159E /* Products */,
 				EC963F32D399D1808E4D29A2204C422E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		97FD7B6D5B6FEDE4EE9F7AFDB6AD5505 /* Toast */ = {
+		7F993BB887AA1F50CEEA45DA674E5C11 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BA9FCF9647E97105AF0A68156BF7583A /* Toast.h */,
-				FA448E9BCD2E7E651E3100A22592FF15 /* UIView+Toast.h */,
-				8F0455E02D1ED4D8B0E703BD5148A231 /* UIView+Toast.m */,
-				CB2D2F18AE5564F2731C98D31C94AABA /* Support Files */,
+				86D6A5CEF569239A40ECE6A2136B22EB /* TencentOpenApi_IOS_Bundle.bundle */,
 			);
-			name = Toast;
-			path = Toast;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8492D7281BD27BDE5D464133811ED0C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5E86721331B6B38A9A77ED04E1AA2A8 /* MBProgressHUD */,
+				A5BF61BF454A40CA3F92C0A3D1E7A5AD /* MOBFoundation */,
+				FAF8BCC8FE2798270F85B9A47BBFB231 /* ShareSDK3 */,
+				6D21E2DC26228C0039E9CD0DED5141DC /* SQRBaseDefineWithFunction */,
+				4818BBF8AABD2B8AAA539343B5DA5C45 /* Toast */,
+				CD8C16C84269417D2F4BA52B30A2BD2D /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98926B3C2A6D66A5585894785DF54BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C7A369636D3243B0A189BF580C4873 /* ShareSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BF61BF454A40CA3F92C0A3D1E7A5AD /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				C66475AD5F2C308D03DE97E6FE52818C /* Frameworks */,
+			);
+			name = MOBFoundation;
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+		A5E86721331B6B38A9A77ED04E1AA2A8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0F6EE5EF963AF00D2F5C5F4661D96A00 /* MBProgressHUD.h */,
+				E6666F81F596B8B533D7EE8347BC8507 /* MBProgressHUD.m */,
+				1173BB43AE8A7D2F736663B9166F3B58 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A6201309C3D61D7DB438D8598E4DE32C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D958BF7BA02297C907C5564F3643B9 /* ShareSDKConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97E64D93A363E853FB1177C8F9E3D29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A313165F28543D8ECC05D82C3E874B8 /* Toast.xcconfig */,
+				CEDEA4D61212A53D8F5EFCD1D2725B63 /* Toast-dummy.m */,
+				92B65CA43CFB69759B89775ED9C57B9F /* Toast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
 			sourceTree = "<group>";
 		};
 		C48461B83C73326F3F8413CD7E93159E /* Products */ = {
@@ -236,6 +365,15 @@
 				CAD7AB02BAC97D53C5670C2D37B6EB05 /* libToast.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C66475AD5F2C308D03DE97E6FE52818C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DF1EFD8005C25607C4A6FD504DE13 /* MOBFoundation.framework */,
+				8343FEFEA8B10F67C5BF57F5166912D3 /* MOBFoundationEx.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C689F604EF7208AE9BE93C03908E51D9 /* Pods-SQRShare */ = {
@@ -253,60 +391,35 @@
 			path = "Target Support Files/Pods-SQRShare";
 			sourceTree = "<group>";
 		};
-		CB2D2F18AE5564F2731C98D31C94AABA /* Support Files */ = {
+		C9C824560AE27965648301AD61C3CBE6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8CCED1107F25E54F02D0040B1421C1F3 /* Toast.xcconfig */,
-				B76F99D6D823ED13BE56F00B45C568D7 /* Toast-dummy.m */,
-				C9EDFD119CBACC1E07D74CD59E303620 /* Toast-prefix.pch */,
+				FDED5F3B068585F7BEDBCE2C696ED9F7 /* SQRBaseDefineWithFunction.xcconfig */,
+				683A1F496EEBD4DBAD5C17A337259FAE /* SQRBaseDefineWithFunction-dummy.m */,
+				2C741DEB009B14E03D76BB5F9CFF3D7A /* SQRBaseDefineWithFunction-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Toast";
+			path = "../Target Support Files/SQRBaseDefineWithFunction";
 			sourceTree = "<group>";
 		};
-		DB203A6D84333E06CBAB52536D7D4F2C /* Support Files */ = {
+		CD8C16C84269417D2F4BA52B30A2BD2D /* WechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				0665653090ADBA8D7EE5465F97618B38 /* MBProgressHUD.xcconfig */,
-				AD5069408864C9EF8FFE2EE9A2C108A9 /* MBProgressHUD-dummy.m */,
-				0105F9EAABB052B2ACD44D1E7F628FE0 /* MBProgressHUD-prefix.pch */,
+				1AABADC8FFE8FC28E551B63886C70CFC /* WechatAuthSDK.h */,
+				E27575C97F979AB805DAE96C91DCE11C /* WXApi.h */,
+				23A92DBC2129D00ACBC44A38A6E01617 /* WXApiObject.h */,
+				780506B967B6DF1832C01481F973540C /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		DD6B13A239952858FF540C716DA22DB8 /* Pods */ = {
+		D7C3FB62309AA6557A05ABA9948B8FDD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0F599C374E38D3D535207205D35FAD1F /* MBProgressHUD */,
-				E63FEAF9B70AE8D1992CFA50F39FDC7A /* SQRBaseDefineWithFunction */,
-				97FD7B6D5B6FEDE4EE9F7AFDB6AD5505 /* Toast */,
+				8E974FE5CA01A69E5525B8C54B0F7758 /* ShareSDK.bundle */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E63FEAF9B70AE8D1992CFA50F39FDC7A /* SQRBaseDefineWithFunction */ = {
-			isa = PBXGroup;
-			children = (
-				5A80B45F1A79197314543AA3AD9BB71E /* SQRBaseDefine.h */,
-				E7F2BDCEC2BC9C8845E36B67EAF4168A /* SQRCommonFunction.h */,
-				15BB07F273BFB8D0D2EB7968D25E2930 /* SQRCommonFunction.m */,
-				963E70843E8F1216A41B2095A14401B6 /* SQRDataSave.h */,
-				D1ADE745F1998974A912D54AC9047848 /* SQRDataSave.m */,
-				4DD1A4AAB1897B800E8CDF5B2DA659EC /* SQRDateFunction.h */,
-				472FCE0B07728357F570349998B3736C /* SQRDateFunction.m */,
-				AFB45B416A3D1B9BA2DF3EBF317F620D /* SQRSystemApiFunction.h */,
-				27A83811193E3152A66678959965D6B3 /* SQRSystemApiFunction.m */,
-				4AFEFF00CA91C1AF6D13B205459D175A /* UILabel+FlickerNumber.h */,
-				8856628DCEB9474EF4F0568D511A13B7 /* UILabel+FlickerNumber.m */,
-				F8C507FC6192487CFAFC0DCC0820BDF4 /* UIView+Frame.h */,
-				316327F347D2D147A86995CA42D53BF8 /* UIView+Frame.m */,
-				E096CD0FD7879644192D206BC0546815 /* UIView+Tap.h */,
-				DC980456C77DF1201C18DF5BE5F85FE2 /* UIView+Tap.m */,
-				0A3C7D9F1C5C921F779A1DC554325B58 /* Support Files */,
-			);
-			name = SQRBaseDefineWithFunction;
-			path = SQRBaseDefineWithFunction;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		EC963F32D399D1808E4D29A2204C422E /* Targets Support Files */ = {
@@ -315,6 +428,26 @@
 				C689F604EF7208AE9BE93C03908E51D9 /* Pods-SQRShare */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAF8BCC8FE2798270F85B9A47BBFB231 /* ShareSDK3 */ = {
+			isa = PBXGroup;
+			children = (
+				98926B3C2A6D66A5585894785DF54BA9 /* Frameworks */,
+				7192BEDBEF7EA41B800B5F8635215DAE /* ShareSDK */,
+				1F7C8074301D7A358ABE3880A07EF79F /* ShareSDKPlatforms */,
+			);
+			name = ShareSDK3;
+			path = ShareSDK3;
+			sourceTree = "<group>";
+		};
+		FC1C6BBDBB0FFB044FC7E894024A9FB1 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				08332B1BC27D84161F80F5E9CA6C16BA /* Frameworks */,
+				7F993BB887AA1F50CEEA45DA674E5C11 /* Resources */,
+			);
+			name = QQ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,7 +669,7 @@
 /* Begin XCBuildConfiguration section */
 		14F00A805CB8BD4A51330FB76A07B641 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0665653090ADBA8D7EE5465F97618B38 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = AFDAD5F55DA4FAAE2A6D58F6EEE84CB0 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -645,7 +778,7 @@
 		};
 		4A358D071C435D8316E79E91EFCF9A9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D453E70EDA2D4E33717CA637CBCF266 /* SQRBaseDefineWithFunction.xcconfig */;
+			baseConfigurationReference = FDED5F3B068585F7BEDBCE2C696ED9F7 /* SQRBaseDefineWithFunction.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -668,7 +801,7 @@
 		};
 		5F1B2918F0CBB792604A5F99B496E364 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CCED1107F25E54F02D0040B1421C1F3 /* Toast.xcconfig */;
+			baseConfigurationReference = 9A313165F28543D8ECC05D82C3E874B8 /* Toast.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -693,7 +826,7 @@
 		};
 		6875EB9D2EF5521ED479BC2E5687250A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0665653090ADBA8D7EE5465F97618B38 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = AFDAD5F55DA4FAAE2A6D58F6EEE84CB0 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -737,7 +870,7 @@
 		};
 		B43876155000EF6D980625FE3F508359 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D453E70EDA2D4E33717CA637CBCF266 /* SQRBaseDefineWithFunction.xcconfig */;
+			baseConfigurationReference = FDED5F3B068585F7BEDBCE2C696ED9F7 /* SQRBaseDefineWithFunction.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -819,7 +952,7 @@
 		};
 		FC413E068BF64FF6F3AA05797D5915F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CCED1107F25E54F02D0040B1421C1F3 /* Toast.xcconfig */;
+			baseConfigurationReference = 9A313165F28543D8ECC05D82C3E874B8 /* Toast.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

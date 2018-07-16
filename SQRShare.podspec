@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRShare"
-  s.version      = "0.2.2"
+  s.version      = "0.2.3"
   s.summary  	 = '自定义分享'
   s.homepage     = "https://github.com/pengruiCode/SQRShare.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -23,6 +23,10 @@ Pod::Spec.new do |s|
 
   s.subspec "WechatOpenSDK" do |ss|
      ss.dependency "WechatOpenSDK"
+  end
+
+  s.subspec "ShareSDK3" do |ss|
+     ss.dependency "ShareSDK3" , '~> 3.6.3'
   end
 
  end
