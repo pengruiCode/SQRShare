@@ -19,6 +19,17 @@
 		9A1AC82720EF0A5900482B2B /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC82420EF0A5900482B2B /* ShareSDKConnector.framework */; };
 		9A1AC82820EF0A5900482B2B /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC82520EF0A5900482B2B /* ShareSDK.framework */; };
 		9A1AC82920EF0A5900482B2B /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1AC82620EF0A5900482B2B /* ShareSDKExtension.framework */; };
+		9A1BBCC320FC763800DBF9DE /* WechatConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCC220FC763800DBF9DE /* WechatConnector.framework */; };
+		9A1BBCC620FC764100DBF9DE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCC520FC764100DBF9DE /* libWeChatSDK.a */; };
+		9A1BBCC920FC789000DBF9DE /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCC720FC789000DBF9DE /* MOBFoundation.framework */; };
+		9A1BBCCA20FC789000DBF9DE /* MOBFoundationEx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCC820FC789000DBF9DE /* MOBFoundationEx.framework */; };
+		9A1BBCCC20FC792D00DBF9DE /* libcupolicy.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCCB20FC792D00DBF9DE /* libcupolicy.tbd */; };
+		9A1BBCCE20FC793C00DBF9DE /* libcups.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCCD20FC793C00DBF9DE /* libcups.tbd */; };
+		9A1BBCD020FC794500DBF9DE /* libcurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCCF20FC794500DBF9DE /* libcurses.tbd */; };
+		9A1BBCD220FC795000DBF9DE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCD120FC795000DBF9DE /* libz.tbd */; };
+		9A1BBCD420FC795C00DBF9DE /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCD320FC795C00DBF9DE /* libstdc++.tbd */; };
+		9A1BBCD620FC796300DBF9DE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCD520FC796200DBF9DE /* JavaScriptCore.framework */; };
+		9A1BBCD820FC797200DBF9DE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BBCD720FC797200DBF9DE /* libsqlite3.tbd */; };
 		9A2D67B120CE73DA00C986E3 /* SQRShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */; };
 		9A2D67BC20CE73DA00C986E3 /* SQRShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67BB20CE73DA00C986E3 /* SQRShareUITests.m */; };
 		9A2D67D520CE745E00C986E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D67CB20CE745E00C986E3 /* AppDelegate.m */; };
@@ -84,6 +95,20 @@
 		9A1AC82420EF0A5900482B2B /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
 		9A1AC82520EF0A5900482B2B /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
 		9A1AC82620EF0A5900482B2B /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		9A1BBCBF20FC762D00DBF9DE /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		9A1BBCC020FC762F00DBF9DE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		9A1BBCC120FC763000DBF9DE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		9A1BBCC220FC763800DBF9DE /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WechatConnector.framework; sourceTree = "<group>"; };
+		9A1BBCC520FC764100DBF9DE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9A1BBCC720FC789000DBF9DE /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		9A1BBCC820FC789000DBF9DE /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
+		9A1BBCCB20FC792D00DBF9DE /* libcupolicy.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcupolicy.tbd; path = usr/lib/libcupolicy.tbd; sourceTree = SDKROOT; };
+		9A1BBCCD20FC793C00DBF9DE /* libcups.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcups.tbd; path = usr/lib/libcups.tbd; sourceTree = SDKROOT; };
+		9A1BBCCF20FC794500DBF9DE /* libcurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
+		9A1BBCD120FC795000DBF9DE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9A1BBCD320FC795C00DBF9DE /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9A1BBCD520FC796200DBF9DE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9A1BBCD720FC797200DBF9DE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9A2D679420CE73D100C986E3 /* SQRShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67AC20CE73DA00C986E3 /* SQRShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2D67B020CE73DA00C986E3 /* SQRShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRShareTests.m; sourceTree = "<group>"; };
@@ -134,12 +159,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1BBCD820FC797200DBF9DE /* libsqlite3.tbd in Frameworks */,
+				9A1BBCD620FC796300DBF9DE /* JavaScriptCore.framework in Frameworks */,
+				9A1BBCD420FC795C00DBF9DE /* libstdc++.tbd in Frameworks */,
+				9A1BBCD220FC795000DBF9DE /* libz.tbd in Frameworks */,
+				9A1BBCD020FC794500DBF9DE /* libcurses.tbd in Frameworks */,
+				9A1BBCCE20FC793C00DBF9DE /* libcups.tbd in Frameworks */,
+				9A1BBCCC20FC792D00DBF9DE /* libcupolicy.tbd in Frameworks */,
 				9A1AC81F20EF050600482B2B /* TencentOpenAPI.framework in Frameworks */,
+				9A1BBCC320FC763800DBF9DE /* WechatConnector.framework in Frameworks */,
+				9A1BBCC620FC764100DBF9DE /* libWeChatSDK.a in Frameworks */,
 				9A1AC81B20EF050600482B2B /* QQConnector.framework in Frameworks */,
 				2E775C100092F153939CD0C5 /* libPods-SQRShare.a in Frameworks */,
 				9A1AC82720EF0A5900482B2B /* ShareSDKConnector.framework in Frameworks */,
+				9A1BBCC920FC789000DBF9DE /* MOBFoundation.framework in Frameworks */,
 				9A1AC82820EF0A5900482B2B /* ShareSDK.framework in Frameworks */,
 				9A1AC82920EF0A5900482B2B /* ShareSDKExtension.framework in Frameworks */,
+				9A1BBCCA20FC789000DBF9DE /* MOBFoundationEx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +208,9 @@
 		9A1AC81520EF050600482B2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A1BBCC720FC789000DBF9DE /* MOBFoundation.framework */,
+				9A1BBCC820FC789000DBF9DE /* MOBFoundationEx.framework */,
+				9A1BBCC220FC763800DBF9DE /* WechatConnector.framework */,
 				9A1AC82520EF0A5900482B2B /* ShareSDK.framework */,
 				9A1AC82420EF0A5900482B2B /* ShareSDKConnector.framework */,
 				9A1AC82620EF0A5900482B2B /* ShareSDKExtension.framework */,
@@ -179,6 +218,14 @@
 				9A1AC81A20EF050600482B2B /* TencentOpenAPI.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A1BBCC420FC764100DBF9DE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9A1BBCC520FC764100DBF9DE /* libWeChatSDK.a */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 		9A2D678B20CE73D100C986E3 = {
@@ -247,8 +294,12 @@
 				9A2D67E020CE746200C986E3 /* PRSharePlatform.m */,
 				9A2D67E120CE746200C986E3 /* PRShareView.h */,
 				9A2D67E220CE746200C986E3 /* PRShareView.m */,
+				9A1BBCBF20FC762D00DBF9DE /* WechatAuthSDK.h */,
+				9A1BBCC120FC763000DBF9DE /* WXApi.h */,
+				9A1BBCC020FC762F00DBF9DE /* WXApiObject.h */,
 				9A1AC81520EF050600482B2B /* Frameworks */,
 				9A2D67E320CE746200C986E3 /* Resource */,
+				9A1BBCC420FC764100DBF9DE /* Library */,
 			);
 			path = SQRShare;
 			sourceTree = SOURCE_ROOT;
@@ -289,6 +340,13 @@
 		C9FB726C2BF35FC3E84B33A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A1BBCD720FC797200DBF9DE /* libsqlite3.tbd */,
+				9A1BBCD520FC796200DBF9DE /* JavaScriptCore.framework */,
+				9A1BBCD320FC795C00DBF9DE /* libstdc++.tbd */,
+				9A1BBCD120FC795000DBF9DE /* libz.tbd */,
+				9A1BBCCF20FC794500DBF9DE /* libcurses.tbd */,
+				9A1BBCCD20FC793C00DBF9DE /* libcups.tbd */,
+				9A1BBCCB20FC792D00DBF9DE /* libcupolicy.tbd */,
 				D15704CE930B84AD2B353FA1 /* libPods-SQRShare.a */,
 			);
 			name = Frameworks;
@@ -305,7 +363,6 @@
 				9A2D679020CE73D100C986E3 /* Sources */,
 				9A2D679120CE73D100C986E3 /* Frameworks */,
 				9A2D679220CE73D100C986E3 /* Resources */,
-				6AF0A074FAF268567775C348 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -465,26 +522,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6AF0A074FAF268567775C348 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SQRShare/Pods-SQRShare-resources.sh",
-				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/Required/ShareSDK.bundle",
-				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQRShare/Pods-SQRShare-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -676,10 +713,13 @@
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SQRShareExample/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SQRShare/Libraries",
+					"$(PROJECT_DIR)/SQRShare/Library",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -699,10 +739,13 @@
 					"$(PROJECT_DIR)/SQRShare/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SQRShareExample/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SQRShare/Libraries",
+					"$(PROJECT_DIR)/SQRShare/Library",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -716,7 +759,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -730,7 +777,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -743,7 +794,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -756,7 +811,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SQRShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
