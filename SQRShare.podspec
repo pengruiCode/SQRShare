@@ -14,7 +14,10 @@ Pod::Spec.new do |s|
 			自定义分享，基于sharesdk
                    DESC
   s.resource            = 'SQRShare/Resource/*.bundle'
+  s.vendored_frameworks = 'SQRShare/Frameworks/*.framework'
 
   s.dependency "SQRBaseDefineWithFunction"
+  s.dependency "ShareSDK3"
+  s.dependency "WechatOpenSDK"
 
  end
