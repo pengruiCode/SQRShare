@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRShare"
-  s.version      = "0.2.6"
+  s.version      = "0.2.8"
   s.summary  	 = '自定义分享'
   s.homepage     = "https://github.com/pengruiCode/SQRShare.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -13,9 +13,10 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 			自定义分享，基于sharesdk
                    DESC
+  s.resource            = 'SQRShare/Resource/*.bundle'
+  s.vendored_frameworks = 'SQRShare/Frameworks/*.framework'
+  s.vendored_libraries  = 'SQRShare/Library/*.a'
 
-  s.subspec "SQRBaseDefineWithFunction" do |ss|
-     ss.dependency "SQRBaseDefineWithFunction"
-  end
+  s.dependency "SQRBaseDefineWithFunction"
 
  end
